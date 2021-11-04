@@ -1,0 +1,12 @@
+
+#videos {
+    margin: 4rem 0;
+
+    .grid {
+       display: grid;
+       grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+       padding: 0 1rem;
+       gap: 1.1rem;
+       text-align: center;
+   }
+}

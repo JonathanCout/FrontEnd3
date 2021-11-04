@@ -1,0 +1,16 @@
+#ednaldo {
+    background-color:  #adadad;
+    padding: 2.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    ul {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        row-gap: .8rem;
+        column-gap: 7rem;
+    }
+}

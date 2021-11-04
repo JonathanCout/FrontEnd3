@@ -1,0 +1,48 @@
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    background-color: black;
+    color: white;
+
+    padding: 1.5rem;
+
+    h1 {
+        font-size: 2rem;
+
+        &::first-letter {
+            color: red;
+        }
+    }
+
+    ul {
+        display: flex;
+        
+        li {
+            
+            a{
+                color: white;
+                padding: .7rem;
+                border-radius: 9px;
+                font-weight: 700;
+                transition: all .3s ease-in-out;
+
+                &:hover {
+                    background-color: red;
+                    color: black;
+                }
+            }
+        }
+    }
+}

@@ -1,5 +1,6 @@
 import { Component } from 'react';
 import './App.scss';
+import Clock from './components/Clock';
 
 export default class App extends Component {
   constructor(){
@@ -77,6 +78,8 @@ export default class App extends Component {
           })
         }
       </div>
+
+      <Clock></Clock>
       </>
     )
   }

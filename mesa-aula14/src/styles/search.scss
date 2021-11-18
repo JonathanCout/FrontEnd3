@@ -1,0 +1,30 @@
+a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: .5rem 1rem;
+    background-color: hsla(147, 85%, 35%, 0.794);
+    border-radius: 1.5rem;
+    color: white;
+    
+    &:hover{
+        transform: scale(1.1);
+        color: #fffa5b;
+    }
+}
+form {
+    button{
+        border-radius: 1rem;
+        font-size: 1.2rem;
+        padding: .8rem;
+        background-color: #2ab366;
+        border:none;
+        color: white;
+    }
+}
+
+ul,li {
+    background-color: transparent !important;
+}
+li{
+    border-width: 0 0 2px !important;
+}
